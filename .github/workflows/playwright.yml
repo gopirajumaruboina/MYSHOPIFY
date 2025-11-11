@@ -1,7 +1,7 @@
 name: Playwright Tests
 on:
   schedule:
-    - cron: '30 1 * * 1-5'  # Runs Mon–Fri at 7:00 AM IST (1:30 AM UTC)
+    - cron: '30 2 * * 1-5'  # Runs Mon–Fri at 8:00 AM IST (1:30 AM UTC)
   workflow_dispatch:          # Optional manual trigger
 jobs:
   test:
