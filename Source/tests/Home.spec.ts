@@ -1,9 +1,9 @@
 import { test } from '@playwright/test'
 import dotenv from 'dotenv'
-import { PerformAddToCart } from '../Source/utils/CommonFunctions'
-import { Login } from '../Source/Pages/login'
+import { PerformAddToCart } from '../utils/CommonFunctions'
+import { Login } from '../Pages/login'
 import { faker } from '@faker-js/faker'
-import { Home } from '../Source/Pages/Home'
+import { Home } from '../Pages/Home'
 
 dotenv.config()
 test('Home_Item_Cart', async ({ page }) => {

@@ -1,7 +1,7 @@
 import { test } from '@playwright/test'
-import { Login } from '../Source/Pages/login'
-import { PerformAddToCart } from '../Source/utils/CommonFunctions'
-import { Catalog } from '../Source/Pages/Catalog'
+import { Login } from '../Pages/login'
+import { PerformAddToCart } from '../utils/CommonFunctions'
+import { Catalog } from '../Pages/Catalog'
 import { faker } from '@faker-js/faker'
 
 test('Catalog_Item_Cart', async ({ page }) => {

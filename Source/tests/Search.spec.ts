@@ -1,6 +1,6 @@
 import{test} from '@playwright/test'
-import { Login } from '../Source/Pages/login'
-import { search } from '../Source/Pages/search'
+import { Login } from '../Pages/login'
+import { search } from '../Pages/search'
 
 test('search',async({page})=>{
     const login = new Login(page)
