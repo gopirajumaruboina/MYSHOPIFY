@@ -27,11 +27,12 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
      baseURL: 'https://sauce-demo.myshopify.com/',
+     storageState :'auth.json',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     viewport: { width: 1280, height: 720 },
-    headless: false
+    headless: true
   },
 
   /* Configure projects for major browsers */
