@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test'
 import dotenv from 'dotenv'
-import { PerformLogin } from '../Source/utils/CommonFunctions'
+import { PerformLogin } from '../utils/CommonFunctions'
 import path from 'path'
 
 dotenv.config()

@@ -1,5 +1,5 @@
 import {test} from '@playwright/test'
-import{ULandDL} from '../Source/Pages/UploadDownload'
+import{ULandDL} from '../Pages/UploadDownload'
 
 let ud! : ULandDL;
 
