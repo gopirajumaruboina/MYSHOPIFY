@@ -33,7 +33,7 @@ export class Home extends BasePage {
         this.MyCart = page.locator('//*[@class="toggle-drawer cart desktop "]')
         this.Quantity = page.locator('//input[@name="updates[]"]')
         this.Notes = page.getByPlaceholder('Add a note to your order...')
-        this.enterEmail = page.getByRole('textbox', { name: 'Email' })
+        this.enterEmail = page.locator('#email')
         this.Country = page.locator('//select[@name="countryCode"]')
         this.Fname = page.getByPlaceholder('First name (optional)')
         this.Lname = page.getByPlaceholder('Last name')
