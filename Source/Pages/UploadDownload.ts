@@ -16,7 +16,7 @@ export class ULandDL {
     }
 
     async Navigation() {
-        await this.page.goto('https://demoqa.com/upload-download')
+        await this.page.goto('https://demoqa.com/upload-download',{waitUntil:'domcontentloaded'})
     }
     async Upload() {
         await this.page.setInputFiles('#uploadFile',['sampleFile.jpeg'])
